@@ -1,0 +1,65 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+
+body {
+  margin: auto;
+  width: 1000px;
+  height: 1000px;
+
+}
+
+.box-superiore {
+
+  width: 100%;
+  height: 35vh;
+  background-color: blue;
+}
+
+.colonna-sinistra {
+  margin-top: 2%;
+  width: 20%;
+  height: 100vh;
+  background-color: red;
+  float: left;
+}
+.colonna-centrale {
+  width: 56%;
+  margin:2%;
+  height: 200px;
+  background-color: yellow;
+  float: left;
+}
+.colonna-destra {
+  margin-top: 2%;
+  width: 20%;
+  height: 100vh;
+  background-color: red;
+  float: left;
+}
+.colonne:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.modulo{
+  background-color: pink;
+  margin: 20px;
+
+}
+.fine{
+
+  margin: 2%;
+  height: 100px;
+  background-color: grey;
+}
+
+.logo{
+  display: inline-block;
+  background-color: blue;
+  width: 33%;
+  height: 100%;
+}
